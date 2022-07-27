@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Mdidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas 
+            em, ex, rem, VW, vh, % 
+            16px geralmente = 1em
+            */
+            
+            /*weight pode ser representado por lighter, normal, bold e bolder. Também de 100 a 900, sendo 100 o lighter, assim por diante*/
+
+             /*weight= "peso", width="largura", height="altura"*/
+        }
+
+        h1 {
+            /* shorthands font
+            
+            -SEGUIR ESSA ORDEM:
+            font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bolder 2em 'Work Sans' sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi explicabo possimus minima tempore assumenda non similique eos voluptatibus quis? Magni consequuntur vero impedit dolores maxime nam similique excepturi ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores similique qui culpa error excepturi quidem dicta illum maxime tempora iste dolorem iusto, ex saepe incidunt voluptatum. Accusamus ipsum nostrum alias!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe ducimus hic dolores explicabo? Deleniti aliquid inventore dolor sint illo possimus voluptatibus atque mollitia, ipsa quis id eos officiis sed!</p>
+
+    <h2>Subtítulo do ecercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia iste error ratione mollitia voluptatem perferendis laudantium eius eos fugiat, quia doloremque explicabo quos labore aperiam dolore tempore itaque minima!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam eos nesciunt debitis, fugiat id doloremque odio accusantium nisi magnam quasi quas veniam, ut, eligendi deserunt possimus atque quisquam ducimus?
+    </p>
+</body>
+</html>

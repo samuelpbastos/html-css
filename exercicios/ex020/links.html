@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red; /* muda a cor do link */
+            text-decoration: none; /* tira o sublinhado do link */
+            font-weight: bold; /* deixa o link negrito */
+        }
+
+        a:visited { /* link visitado... */
+            color: darkred; /* link visitado fica com a cor vermelha escura */
+        }
+
+        a:hover { /* quando passar o mouse em cima */
+            text-decoration: underline; /* o sublinhdo do link aparece de novo */
+            color: black; /* o link ficará com a cor preta */
+        }
+
+        a:active { /* quando clico no link ele fica amarelo */
+            color: yellow;
+        }
+
+        .especial {
+            background-color: red;
+        }
+
+        a::before {
+            content: '->';
+        }
+
+        a::after {
+            content: '<-'; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="hover.html" target="_blank">Hover HTML</a></li>
+        <li><a href="pseudoclasse..html" target="_blank" class="especial">Pseudo-classes HTML</a></li>
+        <li><a href="../ex019/seletor01.html" target="_blank">Exercício 019</a></li>
+    </ul>
+</body>
+</html>
