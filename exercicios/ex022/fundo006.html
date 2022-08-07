@@ -4,20 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
+            /*
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background 
+            color > image > position > repeat > [size] > attachment 
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover; /* o size não está funcionando dentro da shorthand */
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,6 +41,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, minus harum veniam nemo cumque? Beatae facilis consectetur eum unde minima tempora reiciendis, maxime aliquam ad. Explicabo ut esse ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio quod provident quas repellat facere et. Veniam fugiat, unde ipsam minus natus voluptatum illum nobis accusantium quis, laborum perferendis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio architecto saepe ea cumque laborum itaque quis! Ad non, iusto ea temporibus pariatur numquam, praesentium repellendus voluptatem aspernatur soluta magni.</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, minus harum veniam nemo cumque? Beatae facilis consectetur eum unde minima tempora reiciendis, maxime aliquam ad. Explicabo ut esse ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio quod provident quas repellat facere et. Veniam fugiat, unde ipsam minus natus voluptatum illum nobis accusantium quis, laborum perferendis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio architecto saepe ea cumque laborum itaque quis! Ad non, iusto ea temporibus pariatur numquam, praesentium repellendus voluptatem aspernatur soluta magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, minus harum veniam nemo cumque? Beatae facilis consectetur eum unde minima tempora reiciendis, maxime aliquam ad. Explicabo ut esse ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio quod provident quas repellat facere et. Veniam fugiat, unde ipsam minus natus voluptatum illum nobis accusantium quis, laborum perferendis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio architecto saepe ea cumque laborum itaque quis! Ad non, iusto ea temporibus pariatur numquam, praesentium repellendus voluptatem aspernatur soluta magni.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, minus harum veniam nemo cumque? Beatae facilis consectetur eum unde minima tempora reiciendis, maxime aliquam ad. Explicabo ut esse ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio quod provident quas repellat facere et. Veniam fugiat, unde ipsam minus natus voluptatum illum nobis accusantium quis, laborum perferendis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio architecto saepe ea cumque laborum itaque quis! Ad non, iusto ea temporibus pariatur numquam, praesentium repellendus voluptatem aspernatur soluta magni.</p>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, minus harum veniam nemo cumque? Beatae facilis consectetur eum unde minima tempora reiciendis, maxime aliquam ad. Explicabo ut esse ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio quod provident quas repellat facere et. Veniam fugiat, unde ipsam minus natus voluptatum illum nobis accusantium quis, laborum perferendis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio architecto saepe ea cumque laborum itaque quis! Ad non, iusto ea temporibus pariatur numquam, praesentium repellendus voluptatem aspernatur soluta magni.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, minus harum veniam nemo cumque? Beatae facilis consectetur eum unde minima tempora reiciendis, maxime aliquam ad. Explicabo ut esse ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio quod provident quas repellat facere et. Veniam fugiat, unde ipsam minus natus voluptatum illum nobis accusantium quis, laborum perferendis et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga optio architecto saepe ea cumque laborum itaque quis! Ad non, iusto ea temporibus pariatur numquam, praesentium repellendus voluptatem aspernatur soluta magni.</p>
     </main>
